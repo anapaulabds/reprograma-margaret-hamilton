@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    /*margin: 0; */
+    }
+
+body {
+    /* background-color: red; */
+    margin: 0;
+    font-family: "Oxygen", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER*/
+
+.banner {
+    background-image: url("../img/margarethamilton.jpg");
+    background-size: cover ;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner_conteudo {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.banner_conteudo a {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.banner_conteudo a:hover {
+    background-color: darkblue;
+    transition: ease 0.5s;
+    color: white;
+}
+
+/* SOBRE MIM*/
+
+.sobre, 
+.redes_sociais {
+    /*margin 0 10rem;*/
+    max-width: 1024px;
+    margin: 0 auto; 
+}
+
+
+.sobre > h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.sobre_ela {
+    display: flex;
+}
+
+.sobre_conteudo,
+.sobre_legado {
+    width: 50%;
+}
+
+.sobre_conteudo {
+   margin-right: 5rem;
+}
+
+.sobre_conteudo a {
+    background-color: darkblue;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5rem;
+}
+
+.sobre_conteudo a:hover {
+    background-color: white;
+    color: darkslateblue;
+    border: 1px solid white;
+    transition: ease 0.2s;
+}
+
+
+/* REDES SOCIAIS*/
+
+.redes_sociais {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes_sociais_facebook,
+.redes_sociais_twitter,
+.redes_sociais_wikipedia,
+.redes_sociais_github {
+    background-color: darkblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.redes_sociais img {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color:darkblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
