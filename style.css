@@ -16,7 +16,7 @@ a {
 /* HEADER*/
 
 .banner {
-    background-image: url("../img/margarethamilton.jpg");
+    background-image: url("img/margarethamilton.jpg");
     background-size: cover ;
     height: 80vh;
     display: flex;
